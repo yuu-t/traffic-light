@@ -1,0 +1,39 @@
+ html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.cover {
+  display: flex;
+  background-color: rgba( 0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  font-size: 3em;
+  color: white;
+
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: center; /* 横方向の中央揃え */
+  flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+
+.light {
+  display: block;
+  position: absolute;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  /* height: 80vh;
+  margin-left: auto;
+  margin-right: auto; */
+  z-index: -1;
+}
